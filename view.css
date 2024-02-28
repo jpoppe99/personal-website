@@ -12,6 +12,17 @@ h1 {
 
 }
 
+#grid{
+  disply: grid;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  outline: thin solid purple;
+
+}
+
 footer{
   text-align: center;
 
