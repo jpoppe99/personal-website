@@ -2,7 +2,7 @@ body{
   /*background-color: #cfcfcf;
   */
   background-color: #1c7330;
-  margin: 0;
+  
 }
 
 header {
@@ -28,8 +28,9 @@ h1 {
 #grid{
   display: grid;
   width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: auto;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
   /*outline: thin solid #731C5F; */
@@ -48,16 +49,27 @@ h1 {
 #right {
   grid-column: 2 / 3 ;
   grid-row: 2;
-  background-color: red;
+  
 }
 
 #left {
   grid-column: 1 / 2;
   grid-row: 2;
-  background-color: yellowgreen;
+  
 }
 
+#bottom {
+  grid-column: 1/3;
+  grid-row: 3;
+  
+}
+
+#p1 {
+  padding: 10px;
+
+}
 footer{
   text-align: center;
+  margin: 10px;
 
 }
