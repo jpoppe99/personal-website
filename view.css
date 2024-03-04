@@ -33,7 +33,7 @@ h2 {
 }
 
 #projlink{
-
+  
   padding: 15px;
 }
 #grid{
@@ -62,6 +62,7 @@ h2 {
   grid-column: 2 / 3 ;
   grid-row: 2;
   text-align: left;
+  border-left: 1px solid #731C5F;
   
 }
 
@@ -69,7 +70,7 @@ h2 {
   grid-column: 1 / 2;
   grid-row: 2;
   text-align: right;
-  
+  border-right: 1px solid #731C5F;
 }
 
 #bottom {
