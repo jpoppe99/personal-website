@@ -15,7 +15,7 @@ function complement(color1){
 }
 
 function windowResized(){ //kinda clunky but lool
-  canvas = resizeCanvas(windowWidth,windowHeight);
+  resizeCanvas(windowWidth,windowHeight);
   setup();
 }
 
